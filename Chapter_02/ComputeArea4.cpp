@@ -1,19 +1,19 @@
-// ComputeArea3.cpp
+// ComputeArea4.cpp
 
 #include <iostream>
-using std::cin;
-using std::cout;
-using std::endl;
+using namespace std;
 
 int main()
 {
+	const double PI = 3.14159;
+	
 	// Step 1: Read in the radius
 	double radius;
 	cout << "Enter a radius: ";
 	cin >> radius;
 	
 	// Step 2: Compute area
-	double area = radius * radius * 3.14159;
+	double area = radius * radius * PI;
 	
 	// Step 3: Display the area
 	cout << "The area is " << area << endl;
